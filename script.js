@@ -5,7 +5,7 @@ function display_time() {
     let sec = time.getSeconds();
 
     document.getElementById('hours').innerHTML = hrs;
-    if (min < 10){
+    if (min < 10) {
         document.getElementById('minutes').innerHTML = "0" + min;
     } else {
         document.getElementById('minutes').innerHTML = min;
