@@ -1,5 +1,5 @@
 body {
-    background-color: #131516;
+    background-color: #101418;
 }
 
 .container {
@@ -10,7 +10,15 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "DejaVu Sans", serif;
-    color: #ffff;
+    color: #F1F2F3;
     font-weight: bold;
     font-size: 50px;
+}
+
+.shadowed {
+    border: 2px solid #727E84;
+    border-radius: 12px;
+    background: #2D3643;
+    box-shadow: 0 0 15px 5px #2D3643;
+    padding: 10px;
 }
