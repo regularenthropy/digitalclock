@@ -1,6 +1,4 @@
 body {
-    margin: 0%;
-    padding: 0%;
     background-color: #131516;
 }
 
@@ -15,8 +13,4 @@ body {
     color: #ffff;
     font-weight: bold;
     font-size: 50px;
-}
-
-#content {
-    flex: 0 0 120px;
 }
